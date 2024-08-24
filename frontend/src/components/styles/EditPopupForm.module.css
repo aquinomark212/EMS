@@ -1,0 +1,64 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.popup2{
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  width: 400px; /* Adjust as needed */
+  max-width: 100%;
+  box-sizing: border-box;
+  height: 560px;
+}
+
+
+.fname, .lname, .dep, .pos{
+  font-family: Jost;
+  color: black;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.cancelBtn{
+  margin-right: 10px;
+  margin-top: 20px;
+  border: none;
+  background-color: #B8B8B9;
+  font-size: 18px;
+  border-radius: 8px;
+  color: #FFFFFF;
+  padding: 10px;
+  margin-left: 120px;
+}
+
+.saveBtn{
+  float: right;
+  margin-top: 20px;
+  margin-right: 20px;
+  border: none;
+  background-color: #D32232;
+  font-size: 18px;
+  color: #FFFFFF;
+  border-radius: 8px;
+  padding: 10px;
+
+}
+
+.title{
+  text-align: center;
+  font-size: 32px;
+  font-family: Jost;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}

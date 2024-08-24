@@ -1,0 +1,67 @@
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .popup {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    width: 400px; /* Adjust as needed */
+    max-width: 100%;
+    box-sizing: border-box;
+    height: 650px;
+  }
+
+
+  .fname, .lname, .dep, .pos{
+    font-family: Jost;
+    color: black;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  .formButtons {
+    display: flex;
+    justify-content: flex-end; /* Align buttons to the right */
+    margin-top: 20px; /* Add some margin if needed */
+  }
+  
+  .cancelBtn {
+    margin-right: 10px;
+    border: none;
+    background-color: #b8b8b9;
+    font-size: 18px;
+    border-radius: 8px;
+    color: #ffffff;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .saveBtn {
+    border: none;
+    background-color: #d32232;
+    font-size: 18px;
+    color: #ffffff;
+    border-radius: 8px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+
+  .title{
+    text-align: center;
+    font-size: 32px;
+    font-family: Jost;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    
+  }

@@ -1,0 +1,138 @@
+.backgroundContainer {
+    margin: 0;
+    padding: 0;
+    background-image: url('../../../src/images/loginRegBg.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 100vh; 
+    width: 100vw; 
+    overflow: hidden;
+}
+
+.registerForm{
+    border: 2px black solid;
+    width: 571px;
+    height: 700px;
+    position: fixed;
+    inset: 0px;
+    width: 571px;
+    height: 775px;
+    margin: auto;
+    text-align: center;
+    border-radius: 40px;
+    border: 2px #FFC3AA40 solid;
+    background-color: rgba(245, 245, 245, 0.37);
+}
+
+
+.logo{
+    width: 270px;
+    height: 96.84px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 75px;
+    margin-bottom: 70px;
+}
+
+.fNameLabel{
+    float: left;
+    font-size: 18px; 
+    font-weight: 500; 
+    line-height: 26.01px; 
+    margin-left: 117px;
+    
+}
+
+.lNameLabel{
+    margin-left: -90px;
+    font-size: 18px; 
+    font-weight: 500; 
+    line-height: 26.01px;
+    
+    
+}
+
+.firstAndLastLabel{
+    margin-bottom: 10px;
+    font-family: Jost; 
+    color: black
+}
+
+
+.emailLabel {
+    display: block;
+    padding-right: 295px;
+    font-family: Jost; 
+    font-size: 18px; 
+    font-weight: 500; 
+    line-height: 26.01px; 
+    display: block; 
+    margin-bottom: 10px;
+    color: black 
+}
+
+.passwordLabel{
+    display: block;
+    padding-right: 270px; 
+    font-family: Jost; 
+    font-size: 18px; 
+    font-weight: 500; 
+    line-height: 26.01px; 
+    display: block; 
+    margin-bottom: 10px;
+    color: black;
+    margin-top:10px;
+}
+
+
+.fNameInput {
+    width: 155px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.lNameInput{
+    width: 155px;
+    margin-left: 10px;
+    
+}
+
+.btn{
+    display: block;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    width: 343px; 
+    height: 44px; 
+    gap: 0px; 
+    border-radius: 7px; 
+    border: none;
+    opacity: 0px;
+    background-color: #D32232;
+    margin-bottom: 80px;
+    color: #F5F5F7;
+    font-size: 20px;
+    font-family: Jost;
+    cursor: pointer;
+}
+
+
+.linkies{
+    text-decoration: none;
+    font-family: Jost;
+    color: #D32232;
+    font-size: 18px;
+    
+}
+
+.bottom{
+    color: black;
+}
+
+
+
+
