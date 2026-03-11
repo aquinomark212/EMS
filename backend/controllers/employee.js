@@ -5,10 +5,14 @@ const Employee = require('../models/employeeModel');
 const createEmployee = async (req, res) => {
 
     try {
-        const { empId, firstname, lastname, department, position } = req.body;
+        const { firstname, lastname, department, position } = req.body;
+
+         const lastEmp = await Employee.findOne().sort({ empId: -1 }).exec();
+         const empId = lastEmp ? lastEmp.empId + 1 : 1;
 
         const newEmployee = new Employee({ empId, firstname, lastname, department, position });
         await newEmployee.save();
+        console.log("Employee saved:", newEmployee);
         res.status(200).json({ newEmployee });
 
     } catch (error) {

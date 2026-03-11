@@ -66,8 +66,7 @@ docker-compose up --build
 
 ## **Usage**
 
-After running the application, users can log in to the system and manage employee records. The system allows administrators to add new employees, view existing employee data, update employee information, and remove records when necessary.
-
+After starting the application, users can log in and manage employee records through the dashboard.
 
 
 ## **Features**
@@ -82,3 +81,25 @@ After running the application, users can log in to the system and manage employe
 
 -  Docker containerization for easy setup and deployment
 
+
+
+## **Tech Stack**
+
+MongoDB
+
+Express.js
+
+React.js
+
+Node.js
+
+Docker
+
+JWT Authentication
+
+
+## **Author**
+
+Mark Andrew Aquino
+
+Internship Project

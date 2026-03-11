@@ -6,7 +6,7 @@ import axios from "axios";
 const apiUrl = process.env.REACT_APP_API_URL;
 
   const CreateEmployee = ({open, close}) => {
-    const [empId, setEmpId] = useState('');
+    // const [empId, setEmpId] = useState('');
     const [firstname, setFirstname] = useState('');
     const [lastname, setLastname] = useState('');
     const [department, setDepartment] = useState('');
@@ -23,7 +23,7 @@ const apiUrl = process.env.REACT_APP_API_URL;
         }
   
         const response = await axios.post(`${apiUrl}/api/employees`, 
-          { empId, firstname, lastname, department, position },
+          { firstname, lastname, department, position },
           {
             headers: {
               Authorization: `Bearer ${token}`,
@@ -33,7 +33,7 @@ const apiUrl = process.env.REACT_APP_API_URL;
   
         console.log('Employee created:', response.data);
       
-      setEmpId('');
+      ///setEmpId('');
       setFirstname('');
       setLastname('');
       setDepartment('');
@@ -52,7 +52,7 @@ const apiUrl = process.env.REACT_APP_API_URL;
       <div className={styles.popup}>
         <h2 className={styles.title}>Create Employee</h2>
         <form onSubmit={handleSubmit}>
-          <label className={styles.fname}>
+          {/* <label className={styles.fname}>
             Employee Id:
             <input
               type="text"
@@ -60,7 +60,7 @@ const apiUrl = process.env.REACT_APP_API_URL;
               value={empId}
               onChange={(e) => setEmpId(e.target.value)}
             />
-          </label>
+          </label> */}
           <label className={styles.fname}>
             First Name:
             <input
