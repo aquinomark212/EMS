@@ -13,7 +13,6 @@ The application is containerized using Docker to simplify deployment and environ
 - [Installation](#installation)
 - [Usage](#Usage)
 - [Features](#Features)
-- [Installation](#installation)
 
 
 
@@ -81,4 +80,11 @@ After running the application, users can log in to the system and manage employe
 -  Responsive user interface using React
 
 -  Docker containerization for easy setup and deployment
+
+
+## **Author**
+
+Mark Andrew Aquino
+
+Internship Project – Employee Management System
 
